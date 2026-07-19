@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+background-color: black;
+color:  #FF5F1F;
+align-items: center;
+height: 12vh;
+padding: 0 40px;
+
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.urbanbutton{
+    background-color: #FF5F1F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+i{
+    font-size: large;
+    color: white;
+}
+ul li a:hover{
+    color: #FF5F1F;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease;
+ 
+
+}
+.urbanbutton:hover{
+    background-color: white;
+    color: #FF5F1F;
+    transition: all 0.8s ease;
+}
+/* nav complete */
+.hero {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswE6ZRyilQGcYvRaxuvzTsLBWzgH1xlCCGIxYCHXklA&s=10);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.hero_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    .hero{
+        background-image: url("img/hero.png");
+
+    }
+
+}
+.secbutton{
+    background-color: #FF5F1F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 10px;
+
+}
+.secbutton:hover{
+    background-color: white;
+    color: #FF5F1F;
+    transition: all 0.8s ease;
+
+}
+h1{
+    color: #FF5F1F;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+}
